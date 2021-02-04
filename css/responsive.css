@@ -79,11 +79,24 @@
 .footer .footer-col {
 	margin-bottom: 50px;
 }
+
 }
  @media screen and (max-width: 640px) {
 .banner-text {
 	padding-top: 35%;
 	text-align: center;
+}
+.social-links {
+	justify-content: center;
+}
+.special {
+	display: flex;
+	justify-content: center;
+}
+.expertise {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 }
  @media screen and (max-width: 480px) {
@@ -99,6 +112,18 @@
 }
 .banner {
 	height: 30px!important;
+}
+.social-links {
+	justify-content: center;
+}
+.special {
+	display: flex;
+	justify-content: center;
+}
+.expertise {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 }
  @media screen and (max-width: 320px) {
@@ -120,5 +145,17 @@
 }
 .testimonials p {
 	font-size: 26px;
+}
+.social-links {
+	justify-content: center;
+}
+.special {
+	display: flex;
+	justify-content: center;
+}
+.expertise {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 }
